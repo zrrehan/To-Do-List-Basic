@@ -1,0 +1,145 @@
+body {
+    background-color: #1c1c1c;
+}
+header {
+    color: #93907a;
+    font-size: 2em;
+}
+p {
+    color: #93907a;
+    font-size: 1.5em;
+}
+#pending, #completed {
+    /* border: 2px solid black;     */
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center; 
+    padding: 20px;
+    color: white;
+}
+
+.items {
+    background-color: #2a2a2a;
+    /* height: 50px; */
+    margin-bottom: 5px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.submit {
+    position:fixed; 
+    top: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+input, button {
+    height: 50px;
+    width: 87vw;
+    font-size: 20px;
+    background-color: #2a2a2a;
+    border: none;
+    color: #93907a;
+    padding-left: 10px;
+}
+
+button {
+    width: 8vw;
+    color: #93907a;
+    padding-left: 0px;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: #93907a;
+}
+
+.dayName {
+    font-size: 20px;
+}
+
+.nothingSelected {
+    height: 70vh;
+    width: 100vw;
+    background-color:#1c1c1c;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    color: #93907a;
+    font-size: 1.2rem;
+    position: fixed;
+    top: 0px;
+}
+container {
+    width: 95vw;
+}
+#pending {
+    display: grid; 
+    grid-template-columns: 80% 10% 10%;
+    grid-column-gap: 10px;
+}
+
+.edit-panel {
+    background-color: #18180e;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 30vh;
+    width: 90vw;
+    top: 5vh;
+    left: 5vw;
+    visibility: hidden;
+}
+
+.edit-input {
+    width: 80%;
+    margin: 30px;
+    color: #93907a;
+}
+
+.cross {
+    background-color: rgb(103, 92, 0);
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 0px;
+    color:#93907a;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.cross:hover {
+    background-color: #b95757;
+    color: white;
+}
+
+input::selection  {
+    background-color: #93907a43;
+}
+
+.edit-save {
+    width: 10%;
+}
+
+#pending div, #completed div {
+    padding: 20px;
+    color: #93907a;
+}
+
+#pending div {
+    cursor: pointer;
+}
+
+
+

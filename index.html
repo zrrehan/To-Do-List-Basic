@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <header>My Day</header>
+    <div id = "container">
+        <div id = "pending"></div>
+        <p id = "completedCount">Completed 0</p>
+        <div id = "completed"></div>
+    </div>
+    <div class = "submit">
+        <input type = "text" placeholder="+ Add A Task">
+        <button>Add</button>
+    </div>
+
+    <div class = "nothingSelected">
+        <img src = "toDoLogo.png">
+        <br>
+        Plan Your Day!!!
+    </div>
+
+    <div class = "edit-panel">
+        <div class="cross">×</div>
+        <input type = "text" class = "edit-input">
+        <button class = "edit-save">Save</button>
+    </div>
+
+    <script src = "script.js"></script>
+</body>
+</html>
