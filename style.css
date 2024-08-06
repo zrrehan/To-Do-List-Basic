@@ -30,7 +30,7 @@ p {
 
 .submit {
     position:fixed; 
-    top: 80vh;
+    top: 90vh;
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
@@ -151,5 +151,9 @@ input::selection  {
     #pending div, #completed div {
         padding: 20px;
         padding-left: 10px;
+    }
+
+    .submit {
+        top: 80vh;
     }
 }
