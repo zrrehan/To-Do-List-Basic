@@ -98,7 +98,7 @@ container {
 }
 
 .edit-input {
-    width: 50%;
+    width: 80%;
     margin: 30px;
     color: #93907a;
 }
@@ -128,7 +128,8 @@ input::selection  {
 }
 
 .edit-save {
-    width: 20%;
+    width: 10%;
+    
 }
 
 #pending div, #completed div {
@@ -155,5 +156,13 @@ input::selection  {
 
     .submit {
         top: 80vh;
+    }
+
+    .edit-input {
+        width: 50%;
+    }
+
+    .edit-save {
+        width: 20%;
     }
 }
